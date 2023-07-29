@@ -1,0 +1,33 @@
+.route-table {
+  padding: 20px;
+  background-color: #f1f1f1;
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+
+  tr {
+    cursor: pointer;
+  }
+
+  tr.selected {
+    background-color: #99ccff;
+  }
+}
